@@ -2,7 +2,8 @@ package ClassesAndObjects;
 
 public class Constructor {
     public String Name;
-    public int Age;
+    public final int Age;
+    // final keyword is used to set the value non-mutable further
     public Constructor(String name , int age){
         Name = name;
         if (age>=18){Age = age;}
