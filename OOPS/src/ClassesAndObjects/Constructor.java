@@ -4,6 +4,7 @@ public class Constructor {
     public String Name;
     public final int Age;
     private static int numStudents=0;
+    // private so it cant be changed by someone
     // static means it is same from the reference of any object
     public Constructor(String name , int age){
         Name = name;
