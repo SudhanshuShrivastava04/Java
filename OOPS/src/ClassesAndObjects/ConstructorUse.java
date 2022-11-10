@@ -12,5 +12,9 @@ public class ConstructorUse {
         c2.print();
         c3.print();
         // here I consider 0 as null
+        Constructor c4 = new Constructor("arnav" , 19);
+        c4.print();
+        System.out.println(c1.numStudents);
+        // here I consider 0 as null
     }
 }
