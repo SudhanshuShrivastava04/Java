@@ -11,7 +11,9 @@ public class InsertAtEnd {
         for (int i =0 ; i<arr.length-1; i++){
             arr[i] = sc.nextInt();
         }
-        System.out.println(Arrays.toString(arr));
+        for (int i =0 ; i<size-1; i++){
+            System.out.print(arr[i]+" ");
+        }
         System.out.println("enter target");
         int target = sc.nextInt();
         for (int i=arr.length-1 ; i<arr.length ; i++){
